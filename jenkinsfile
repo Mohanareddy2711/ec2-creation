@@ -15,9 +15,9 @@ pipeline {
                  script{
                         dir("terraform")
                         {
-                            git "git@github.com:Mohanareddy2711/ec2-creation-tf.git"
+                            git "git@github.com:Mohanareddy2711/ec2-creation-tf.git/dev"
                             branch "dev"
-                            
+                        
                         }
                     }
                 }
